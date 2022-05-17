@@ -6,13 +6,13 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 15:54:47 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/04/05 21:35:12 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/07 22:53:28 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(int n)
+int	ft_isdigit(int c)
 {
-	return (n >= '0' && n <= '9');
+	return (c >= '0' && c <= '9');
 }

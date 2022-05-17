@@ -6,19 +6,19 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/06 15:09:56 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/04/06 17:41:43 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/07 22:52:27 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_bzero(void *s, int nbyte)
+void	ft_bzero(void *str, size_t nbyte)
 {
-	int		i;
-	char	*zero;
+	size_t			i;
+	unsigned char	*zero;
 
 	i = 0;
-	zero = s;
+	zero = str;
 	while (i < nbyte)
 	{
 		*(zero + i++) = '\0';

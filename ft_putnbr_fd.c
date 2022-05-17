@@ -1,29 +1,37 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/04/12 14:47:37 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/05/03 16:02:46 by guilhfer         ###   ########.fr       */
+/*   Created: 2022/05/09 14:57:17 by guilhfer          #+#    #+#             */
+/*   Updated: 2022/05/17 14:00:57 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+void	ft_putnbr_fd(int n, int fd)
 {
-	size_t	i;
-
-	i = 0;
-	while (i < ft_strlen(s) + 1)
+	if (n != -2147483648)
 	{
-		if (s[i] == (char)c)
+		if (n < 0)
 		{
-			return ((char *)s + i);
+			ft_putchar_fd('-', fd);
+			ft_putnbr_fd(-n, fd);
 		}
-		i++;
+		else
+		{
+			if (n > 9)
+			{
+				ft_putnbr_fd(n / 10, fd);
+			}
+			ft_putchar_fd('0' + n % 10, fd);
+		}
 	}
-	return (NULL);
+	else
+	{
+		ft_putstr_fd("-2147483648", fd);
+	}
 }

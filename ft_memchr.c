@@ -6,7 +6,7 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 16:28:52 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/04/12 16:29:02 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/01 17:48:12 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,16 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
+	size_t			i;
+	unsigned char	*str;
 
+	i = 0;
+	str = (unsigned char *)s;
+	while (i < n)
+	{
+		if (*(str + i) == (unsigned char)c)
+			return ((void *)str + i);
+		i++;
+	}
+	return (NULL);
 }

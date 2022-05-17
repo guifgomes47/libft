@@ -6,13 +6,13 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 15:35:06 by guifgomes         #+#    #+#             */
-/*   Updated: 2022/04/05 21:34:45 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/07 22:53:15 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(int a)
+int	ft_isalpha(int c)
 {
-	return ((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
