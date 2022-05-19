@@ -6,11 +6,14 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/07 22:10:26 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/05/07 23:08:35 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:18:58 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* Applies the function ’f’ to each character of the string ’s’, and passing
+its index as first argument to create a new string */
 
 char	*ft_strmapi(char const *str, char (*f)(unsigned int, char))
 {

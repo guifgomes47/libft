@@ -6,11 +6,13 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/07 13:14:06 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/04/07 13:39:07 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:06:25 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+//The memcpy() function returns a pointer to dest.
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

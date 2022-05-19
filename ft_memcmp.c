@@ -6,11 +6,15 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/19 18:03:24 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/04/23 14:34:57 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:06:03 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* The memcmp() function returns an integer less than, equal to, or greater
+than zero if the first n bytes of str1 is found, respectively, to be less than,
+to match, or be greater than the first n bytes of str2. */
 
 int	ft_memcmp(const void *str1, const void *str2, size_t n)
 {

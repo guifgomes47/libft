@@ -6,11 +6,15 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/11 14:20:20 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/05/07 22:50:54 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:15:48 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* The strcat() function appends the src string to the dest string, overwriting
+the terminating null byte ('\0') at the end of dest, and then adds a
+terminating null byte. */
 
 size_t	ft_strlcat(char *dest, const char *src, size_t size)
 {

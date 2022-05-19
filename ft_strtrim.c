@@ -6,11 +6,14 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/30 21:02:27 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/05/03 16:59:30 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:25:48 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* returns a copy of ’s1’ with the characters specified in ’set’ removed
+from the beginning and the end of the string */
 
 char	*ft_strtrim(char const *str, char const *set)
 {

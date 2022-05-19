@@ -6,13 +6,15 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/27 17:21:38 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/05/07 22:51:32 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:12:05 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 //The ft_strdup() function returns a pointer to the duplicated string,
 //	or NULL if insufficient memory was available.
+
 char	*ft_strdup(const char *str)
 {
 	char	*cpy;

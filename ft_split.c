@@ -6,11 +6,14 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 17:01:21 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/05/06 17:04:30 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:10:53 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* Returns an array of strings obtained by splitting ’s’ using the
+character ’c’ as a delimiter.*/
 
 static int	ft_rows_count(char const *str, char c)
 {

@@ -6,11 +6,14 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/12 15:43:38 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/04/12 16:24:54 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:20:51 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* The strncmp() function is similar strcmp(), except it only
+compares the first (at most) n bytes of s1 and s2. */
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

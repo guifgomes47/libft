@@ -6,11 +6,13 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/07 21:05:43 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/05/07 22:05:55 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:02:53 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/* The atoi() function converts the int value to a converted char pointer */
 
 static int	ft_digits(int n)
 {

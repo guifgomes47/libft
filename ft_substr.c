@@ -6,16 +6,14 @@
 /*   By: guilhfer <guilhfer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/30 15:58:25 by guilhfer          #+#    #+#             */
-/*   Updated: 2022/04/30 20:31:07 by guilhfer         ###   ########.fr       */
+/*   Updated: 2022/05/19 17:27:13 by guilhfer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-// ft_substr returns a substring,
-// from the string ’s’.
-// The substring begins at index ’start’ and is of
-// maximum size ’len’.
+/*returns a substring from the string 'str'.
+The substring begins at index 'start' and is of maximum size 'len'. */
 
 char	*ft_substr(char const *str, unsigned int start, size_t len)
 {
