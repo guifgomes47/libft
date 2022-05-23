@@ -45,7 +45,7 @@ ARFLAGS = rcs
 
 CC = gcc
 
-CCFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra
 
 REMOVE = rm -f
 
